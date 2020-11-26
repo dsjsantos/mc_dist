@@ -1,0 +1,28 @@
+{
+    "splashSleepTime": 1500,
+    "showImageOnLoadingScreen": true,
+    "captureWebViewConsole": false,
+    "applicationDefaultBgColor": "#1b2f1b",
+    "defaultEnvironment": "PRD",
+    "enableUpdateOTA": true,
+    "environments": {
+        "DEV": "http://192.168.71.86:3000/",
+        "HML": "https://meuclinicas-hml.hcpa.edu.br/",
+        "PRD": "https://meuclinicas.hcpa.edu.br/"
+    },
+    "statusBar": {
+        "bgColog": "#1b2f1b",
+        "style": "light-content"
+    },
+    "pdfViewer": {
+        "navBarHeight": 45,
+        "viewerTitle": "Meu Clínicas",
+        "viewerScroll": true,
+        "viewerPinchZoom": true,
+        "defaultPDFName": "meu_clinicas"
+    },
+    "store": {
+        "subPath": "MeuClinicas",
+        "credentialsFileName": "mc_credentials"
+    }
+}
